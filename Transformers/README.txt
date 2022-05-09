@@ -4,8 +4,6 @@ Steps to run Transformer.ipynb:
 1. Place the data.xlsx in your Google drive and note down the path. 
 2. Replace the path to the xlsx file in the following command:
 data_unprocessed_news = pd.read_excel('/content/drive/MyDrive/Transformers/data.xlsx')
-4. In the make_embedding_layer function change the default path of glove_path to the path you set in your drive. Copy the txt inside glove folder to your drive.
-glove_path= '/content/drive/MyDrive/Transformers/glove.6B.50d.txt'
 4. Run the cells of the ipynb notebook one after the other. 
 
 Note:
